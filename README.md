@@ -1,10 +1,10 @@
-# LaTeX-UESTC-Report
+# LaTeX-UESTC-TermPaper
 
-​	![](https://img.shields.io/badge/language-Tex-yellowgreen.svg)	![GitHub repo size](https://img.shields.io/github/repo-size/skykeyjoker/LaTex-UESTC-Report)	![GitHub](https://img.shields.io/github/license/skykeyjoker/LaTex-UESTC-Report)
+​	![](https://img.shields.io/badge/language-Tex-yellowgreen.svg)	![GitHub repo size](https://img.shields.io/github/repo-size/skykeyjoker/LaTex-UESTC-TermPaper)	![GitHub](https://img.shields.io/github/license/skykeyjoker/LaTex-UESTC-TermPaper)
 
 LaTeX template for term paper of University of Electronic Science and Technology of China (UESTC).
 
-# 电子科技大学本科实验报告 LaTeX 模板
+# 电子科技大学本科学期论文 LaTeX 模板
 
 这是一个适用于电子科技大学本科学期论文的 LaTeX 模板，基于[LaTeX-UESTC-Report](https://github.com/skykeyjoker/LaTeX-UESTC-Report)修改制作。
 
@@ -63,4 +63,4 @@ Times New Roman
 
 **本模板仅在 TEX LIVE 2020 环境下编译通过。**
 
-另外一个模板：[学期论文模板 LaTeX-UESTC-Report](https://github.com/skykeyjoker/LaTeX-UESTC-Report)。
+另外一个模板：[实验报告模板 LaTeX-UESTC-Report](https://github.com/skykeyjoker/LaTeX-UESTC-Report)。
