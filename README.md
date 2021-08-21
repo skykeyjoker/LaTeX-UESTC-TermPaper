@@ -1,12 +1,12 @@
 # LaTeX-UESTC-Report
 
-​	![](https://img.shields.io/badge/language-Tex-yellowgreen.svg)	![GitHub repo size](https://img.shields.io/github/repo-size/skykeyjoker/LaTex-UESTC-Report)	![GitHub](https://img.shields.io/github/license/Shincey/ChineseLatexTemplate)
+​	![](https://img.shields.io/badge/language-Tex-yellowgreen.svg)	![GitHub repo size](https://img.shields.io/github/repo-size/skykeyjoker/LaTex-UESTC-Report)	![GitHub](https://img.shields.io/github/license/skykeyjoker/LaTex-UESTC-Report)
 
-LaTeX template for report(Lab) of University of Electronic Science and Technology of China (UESTC).
+LaTeX template for term paper of University of Electronic Science and Technology of China (UESTC).
 
 # 电子科技大学本科实验报告 LaTeX 模板
 
-这是一个适用于电子科技大学本科实验报告的 LaTeX 模板，基于[zju-report-latex-template](https://github.com/megrxu/zju-report-latex-template)修改制作。
+这是一个适用于电子科技大学本科学期论文的 LaTeX 模板，基于[LaTeX-UESTC-Report](https://github.com/skykeyjoker/LaTeX-UESTC-Report)修改制作。
 
 ## 使用方法
 
@@ -36,8 +36,6 @@ xelatex report.tex
 
 ```
 SimSun 宋体
-SimHei 黑体
-KaiTi 楷体
 Times New Roman
 ```
 
@@ -55,6 +53,14 @@ Times New Roman
 
 <img src="screenshots/4.jpg" style="zoom:50%;" />
 
+<img src="screenshots/5.jpg" style="zoom:50%;" />
+
+<img src="screenshots/6.jpg" style="zoom:50%;" />
+
 ## 注意事项
 
 由于水平有限，本人不保证模板的效果与学校要求 100% 符合。
+
+**本模板仅在 TEX LIVE 2020 环境下编译通过。**
+
+另外一个模板：[学期论文模板 LaTeX-UESTC-Report](https://github.com/skykeyjoker/LaTeX-UESTC-Report)。
