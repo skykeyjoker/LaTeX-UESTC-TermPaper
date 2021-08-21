@@ -1,0 +1,408 @@
+%!TEX program = xelatex
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[a4paper]{uestcreport}
+% =============================================
+% Part 0 Edit the info
+% =============================================
+\titlezh{中文标题}
+\titleen{English Title}
+\major{翻译}
+\name{Name}
+\title{本科实验报告}
+\stuid{2xxxxxxxxx}
+\college{XXX学院}
+\instructor{XXX}
+
+\begin{document}
+% =============================================
+% Part 1 Header
+% =============================================
+\thispagestyle{empty}
+\makecover
+
+% =============================================
+% Part 2 Main document
+% =============================================
+\setcounter{page}{1} % 页码重置
+\pagenumbering{Roman}
+
+
+%%% 中文摘要 %%%
+\begin{abstract}
+    中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要
+	中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要
+	中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要中文摘要
+    \newline
+    \textbf{关键字：}关键字，关键字，关键字
+\end{abstract}
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{摘要}
+\newpage
+
+%%% 英文摘要 %%%
+\ctexset{
+    abstractname = {Abstract},%显示英文摘要
+}
+\begin{abstract}
+    English Abstract English Abstract English Abstract English Abstract English Abstract English Abstract 
+	English Abstract English Abstract English Abstract English Abstract English Abstract English Abstract 
+	English Abstract English Abstract English Abstract English Abstract English Abstract English Abstract 
+	English Abstract English Abstract English Abstract English Abstract English Abstract English Abstract 
+    \newline
+    \textbf{Keyword:}Keyword, Keyword, Keyword
+\end{abstract}
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Abstract}
+\newpage
+
+%%% 目录 %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Contents}
+\ctexset{
+    contentsname = {Contents},%显示英文摘要
+}
+\tableofcontents
+\newpage
+
+\setcounter{page}{1} % 页码重置
+\pagenumbering{arabic}
+
+%%% Chapter 1 %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Chapter 1 Introduction}
+\setcounter{section}{0}
+\part{Introduction}
+\section{Research Background and Significance}
+This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\section{Outline of the Thesis}
+This report is organized as follows.
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\newpage
+
+%%% Chapter 2 %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Chapter 2 Copy Elision}
+\setcounter{section}{0}
+\part{Copy Elision}
+\section{Introduction}
+This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text 
+
+\section{Mandatory Elision of Copy/Move Operations}
+This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text 
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text 
+          \begin{lstlisting}[language=C++]
+//code
+        \end{lstlisting}
+
+          This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text 
+          \begin{lstlisting}[language=C++]
+//code
+    \end{lstlisting}
+
+          This is text This is text This is text This is text This is text This is text This is text This is text 
+          \begin{lstlisting}[language=C++]
+//code
+    \end{lstlisting}
+
+          This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\end{enumerate}
+
+\section{Non-mandatory Elision of Copy/Move Operations}
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+          \begin{lstlisting}[language=C++]
+//code    
+    \end{lstlisting}
+\end{enumerate}
+
+\section{Notes and Example}
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+          This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+          \begin{lstlisting}[language=C++]
+//code     
+    \end{lstlisting}
+\end{enumerate}
+
+\newpage
+
+%%% chapter 3 %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Chapter 3 Return Value Optimization}
+\setcounter{section}{0}
+\part{Return Value Optimization}
+
+\section{Introduction}
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\section{Preparation}
+This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.6\linewidth]{clang.jpg}
+\end{figure}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text 
+
+\section{Return Value Optimization}
+\subsection{Introduction}
+This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text This is text 
+\subsection{Example}
+Here's a simple example:
+\begin{lstlisting}[language=C++]
+\\code
+\end{lstlisting}
+
+Output (note that \textit{-fno-elide-constructors} disable RVO in Clang):
+\begin{lstlisting}[language=sh]
+\\code
+\end{lstlisting}
+
+This is text  \textit{This is text }) This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text 
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text 
+\end{enumerate}
+
+
+\section{Named Return Value Optimization}
+\subsection{Introduction}
+This is text This is text This is text This is text This is text This is text This is text 
+This is text This is text This is text This is text This is text 
+
+\subsection{Example}
+Here’s a simple example:
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+Which has a similar output to \textit{ExampleRVO()} above:
+\begin{lstlisting}[language=sh]
+//code
+d’tor
+\end{lstlisting}
+
+\subsection{Performance}
+This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text  \textit{This is text }:
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+Output:
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text 
+
+\section{Return Value Optimization from the assembly level}
+This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+Output:
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+Now we again analyze the stack of the program.
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+\end{enumerate}
+
+This is text This is text This is text This is text This is text This is text This is text 
+
+\section{When Return Value Optimization doesn't/can't happen}
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\subsection{Deciding on Instance at Runtime}
+This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+Output:
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+\subsection{Assignment}
+This is text This is text This is text This is text This is text This is text This is text  \textit{This is text } This is text This is text This is text This is text
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+Output:
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+\subsection{Returning Member}
+This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+Output:
+\begin{lstlisting}[language=sh]
+//code
+\end{lstlisting}
+
+\newpage
+
+%%% chapter 4 %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{Chapter 4 Summary}
+\setcounter{section}{0}
+\part{Summary}
+This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text 
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text This is text This is text 
+\end{enumerate}
+
+This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text This is text 
+\begin{lstlisting}[language=C++]
+//code
+\end{lstlisting}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text 
+\begin{enumerate}
+    \item This is text This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text This is text 
+    \item This is text This is text This is text This is text 
+\end{enumerate}
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text This is text 
+
+\newpage
+
+%%% reference %%%
+\thispagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{References}
+\ctexset{
+    bibname = {References},%显示英文摘要
+}
+
+\begin{thebibliography}{9}
+    \bibitem{wikipedia}
+    All.
+    \textit{Copy elision}
+    [W]. Wikipedia.
+
+    \bibitem{stackoverflow}
+    Luchian Grigore, Ajay yadavK., Karamazen.
+    \textit{What are copy elision and return value optimization?}
+    [W]. StackOverFlow, 2020.
+
+    \bibitem{zhihu}
+    王纯业（Wang Chunye）.
+    \textit{深入理解Return Value Optimization}
+    [W].知乎, 2019.
+\end{thebibliography}
+
+\end{document}
